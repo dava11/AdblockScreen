@@ -107,9 +107,8 @@
 			children = (
 				6CD13C1028C8F39E00057B68 /* AppDelegate.swift */,
 				6CD13C1228C8F39E00057B68 /* SceneDelegate.swift */,
-				6CD13C1428C8F39E00057B68 /* AdblockViewController.swift */,
-				6CD13C4328C8F60A00057B68 /* AdblockRulesViewController.swift */,
-				6CD13C4528C8F7B200057B68 /* AdblockRulesCellTableViewCell.swift */,
+				6CD13C4728C8FA2F00057B68 /* AdblockMainScreen */,
+				6CD13C4828C8FA5B00057B68 /* AdblockRulesScreen */,
 				6CD13C1628C8F39E00057B68 /* Main.storyboard */,
 				6CD13C1928C8F3A000057B68 /* Assets.xcassets */,
 				6CD13C1B28C8F3A000057B68 /* LaunchScreen.storyboard */,
@@ -133,6 +132,23 @@
 				6CD13C3328C8F3A000057B68 /* VpnScreenAppUITestsLaunchTests.swift */,
 			);
 			path = VpnScreenAppUITests;
+			sourceTree = "<group>";
+		};
+		6CD13C4728C8FA2F00057B68 /* AdblockMainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6CD13C1428C8F39E00057B68 /* AdblockViewController.swift */,
+			);
+			path = AdblockMainScreen;
+			sourceTree = "<group>";
+		};
+		6CD13C4828C8FA5B00057B68 /* AdblockRulesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6CD13C4328C8F60A00057B68 /* AdblockRulesViewController.swift */,
+				6CD13C4528C8F7B200057B68 /* AdblockRulesCellTableViewCell.swift */,
+			);
+			path = AdblockRulesScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
