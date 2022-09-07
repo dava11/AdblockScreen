@@ -66,6 +66,7 @@ class AdblockViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        view.backgroundColor = UIColor(red: 0.62, green: 0.788, blue: 0.808, alpha: 1)
         createTopSpase()
         createMidSpaseView()
         createBotView()
